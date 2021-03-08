@@ -1,13 +1,1079 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.advert {
+  display: flex;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.social-icons {
+  margin-top: 100px;
+  margin-bottom: 75px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
+
+.fast,
+.fasts {
+  width: 310px;
+  margin: 10px 50px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 50px;
+}
+
+.fasts {
+  font-size: 25px;
+  margin-bottom: 150px;
+}
+
+.adverts {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 100px;
+  margin-top: 130px;
+  margin-bottom: 80px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.top-background-image {
+  background-image: url("https://images.unsplash.com/photo-1560762484-813fc97650a0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 730px;
+  background-attachment: fixed;
+}
+
+.mike {
+  font-family: "Abril Fatface", cursive;
+  font-weight: normal;
+  color: white;
+  padding-top: 100px;
+  font-size: 7rem;
+}
+
+.programmer {
+  font-family: "Satisfy", cursive;
+  font-weight: normal;
+  color: #ffffff;
+  padding-left: 800px;
+  font-size: 3.5rem;
+}
+
+.profile-pic {
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  width: 320px;
+  margin-right: 100px;
+  margin-top: 75px;
+  background-position: center center;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 10px;
+}
+
+.about-covers {
+  background-image: url("https://images.unsplash.com/photo-1564933983533-2c8152d3d00e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+  background-attachment: fixed;
+  height: 760px;
+}
+
+.about-bottom {
+  background-image: url("https://images.unsplash.com/photo-1564933983533-2c8152d3d00e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100%;
+  height: 260px;
+}
+
+.about-middle {
+  height: 800px;
+  background-color: white;
+  padding-top: 125px;
+}
+
+.meet {
+  font-family: "Barlow Condensed", sans-serif;
+  color: white;
+  font-size: 9rem;
+  float: left;
+  margin-left: 20px;
+  margin-top: 250px;
+}
+
+.language-icons {
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.language-icon {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.about-box1 {
+  text-align: center;
+  margin-left: 100px;
+  border: 2px solid black;
+  padding: 20px;
+
+  border-radius: 30px;
+  background-image: url("https://images.unsplash.com/photo-1612152916525-a569e78ed905?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
+  /* background: rgba(152, 163, 226, 0.5); */
+  font-family: "Barlow Condensed", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  color: black;
+}
+
+.top-box {
+  margin-top: 35px;
+}
+
+.about-middle-text {
+  color: black;
+  font-size: 22px;
+}
+
+.about-arrow {
+  margin-top: 130px;
+}
+
+.mike-about {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border: 10px solid white;
+  margin-right: 40px;
+  margin-top: 200px;
+  background-position: center center;
+}
+
+.carousel-item {
+  margin-bottom: 70px;
+  height: 700px;
+}
+
+.mid-cont {
+  background-color: #30475e;
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px black;
+  background-image: url(https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  color: white;
+}
+
+.offer {
+  padding-top: 50px;
+}
+
+.navvy {
+  background-image: url("https://images.unsplash.com/photo-1491071676596-825e11fccef5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+}
+
+.navvers {
+  color: white;
+}
+
+.navvy.bg-yellow.navbar.navbar-dark.navbar-expand-sm.navbar_custom.fixed-top
+  li
+  a {
+  color: white;
+  font-size: 25px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.middle-container {
+  background-color: white;
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.bg-yellow {
+  background-color: #9ba4b4 !important;
+}
+
+.navbar-button {
+  background-color: black;
+}
+
+.latest-project {
+  padding-top: 100px;
+  color: white;
+  font-size: 6rem;
+  font-family: "Barlow Condensed", sans-serif;
+  color: white;
+}
+
+.contactbackground {
+  background-image: url("https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 1100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contactme {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  size: 30px;
+}
+
+.formcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.footer-contact {
+  color: white;
+}
+
+.footer-project {
+  color: white;
+
+  margin-top: 262px;
+}
+
+.project-background {
+  background-image: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80");
+  background-size: contain;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.cards {
+  margin-top: 150px;
+  flex-direction: row;
+}
+
+.card-size {
+  width: 34rem;
+}
+
+.languages {
+  display: inline-block;
+  text-align: left;
+}
+
+.name {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.card-texts {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.alert {
+  font-family: "Barlow Condensed", sans-serif;
+  position: absolute;
+  z-index: 1;
+}
+
+.names {
+  color: white;
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 50px;
+}
+
+.windows {
+}
+
+.colored-section {
+  background-image: url("https://images.unsplash.com/photo-1558481795-7f0a7c906f5e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1373&q=80");
+  background-size: cover;
+  color: white;
+  height: 48rem;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.testimonial {
+  border-width: 5px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  background-image: url("https://images.unsplash.com/photo-1588420343618-6141b3784bce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.5;
+  height: 500px;
+  text-align: center;
+  padding: 50px 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.social-icon {
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+.starting {
+  margin-top: 115px;
+  font-size: 65px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.startings {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.social,
+.footer {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.started-button {
+  font-size: 50px;
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: Black;
+  border-radius: 20px;
+  margin: 55px 15px;
+  padding: 15px 30px;
+  color: white;
+}
+
+/* LARGE SCREEN MEDIA QUERIES: */
+
+@media screen and (min-width: 1601px) {
+  .top-background-image {
+    height: 950px;
+  }
+
+  .mike {
+    padding-top: 175px;
+    font-size: 9rem;
+  }
+  .profile-pic {
+    width: 400px;
+  }
+  .scroll {
+    margin-bottom: 10px;
+  }
+
+  .mike-about {
+    height: 400px;
+    width: 400px;
+    right: 120px;
+    top: 350px;
+  }
+
+  .language-icons {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .language-icon {
+    margin-left: 15px;
+  }
+
+  .about-box1 {
+    /* margin-right: 20px; */
+    /* padding: 50px; */
+    /* margin-left: 550px; */
+    /* margin-right: 500px; */
+    /* margin-top: 0px; */
+    /* width: 1000px; */
+  }
+
+  .contactbackground {
+    height: 937px;
+  }
+
+  .project-background {
+    background-size: cover;
+  }
+
+  .about-covers {
+    height: 950px;
+  }
+
+  .meet {
+    margin-left: 50px;
+    margin-top: 350px;
+  }
+
+  .mike-about {
+    height: 600px;
+    width: 600px;
+  }
+}
+
+/* MEDIUM LAPTOP MEDIA QUERIES */
+
+@media screen and (max-width: 1366px) {
+  .top-background-image {
+    height: 1024px;
+  }
+
+  .mike {
+    padding-top: 190px;
+    margin: auto;
+  }
+
+  .programmer {
+    width: 100%;
+    padding-left: 430px;
+  }
+
+  .profile-pic {
+    width: 375px;
+
+    margin-top: 200px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .about-covers {
+    height: 1024px;
+  }
+  .meet {
+    margin-top: 100px;
+  }
+
+  .about-mike {
+    height: 600px;
+    width: 600px;
+  }
+
+}
+
+/* SMALL LAPTOP MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .top-background-image {
+    height: 1366px;
+  }
+
+  .mike {
+    padding-top: 200px;
+    margin: auto;
+  }
+  .programmer {
+    font-size: 2.5rem;
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+
+  .profile-pic {
+    width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+  }
+
+  .scroll {
+    display: none;
+  }
+
+  .middle-container {
+    margin: 0px;
+  }
+
+  .social-icon {
+    font-size: 7vw;
+  }
+
+  .fast {
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fasts {
+    font-size: 22px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .adver {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+  }
+
+  .testimonial {
+    font-size: 24px;
+    width: 800px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .meet {
+    margin-top: 150px;
+    color: white;
+  }
+
+  .mike-about {
+    height: 600px;
+    width: 600px;
+  }
+
+  .about-middle {
+    height: 800px;
+  }
+
+  .about-middle-text {
+    font-size: 22px;
+  }
+
+  .about-box1 {
+    width: 900px;
+    margin-top: 80px;
+  }
+
+  .meet {
+    margin-left: 10px;
+  }
+
+  .about-covers {
+    height: 1366px;
+  }
+
+  .mike-about {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cards {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .advert {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  .about-covers {
+    width: 823px;
+  }
+
+  .meet {
+    font-size: 6.4rem;
+  }
+
+  .about-middle {
+    padding-top: 65px;
+  }
+
+  .about-box1 {
+    width: 700px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 823px) and (max-height: 412px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .meet {
+    font-size: 6.4rem;
+  }
+
+  .about-box1 {
+    width: 800px;
+    margin-top: 00px;
+  }
+}
+
+/* TABLET SIZED MEDIA QUERIES: */
+
+@media screen and (max-width: 768px) {
+  .mike {
+    font-size: 5.5rem;
+    padding-top: 130px;
+    margin: auto;
+  }
+
+  .top-background-image {
+    height: 1024px;
+  }
+
+  .profile-pic {
+    width: 375px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+  }
+
+  .programmer {
+    font-size: 2.5rem;
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+
+  .testimonial {
+    font-size: 21px;
+    width: 600px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+
+  .adverts {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .advert {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .adver {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .fast,
+  .fasts {
+    width: 310px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 35px;
+    margin-top: -30px;
+  }
+
+  .fasts {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+
+  .starting {
+    font-size: 30px;
+  }
+
+  .about-middle {
+    height: auto;
+  }
+
+  .about-box1 {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 640px;
+  }
+
+  .mike-about {
+    height: 400px;
+    width: 400px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-covers {
+    height: 1024px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .meet {
+    font-size: 5.5rem;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    color: white;
+  }
+
+  .language-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+}
+
+/*  MEDIUM DEVICE SIZED MEDIA QUERIES: */
+
+@media screen and (max-width: 640px) {
+  .about-box1 {
+    width: 500px;
+  }
+}
+
+/*  MEDIUM DEVICE SIZED MEDIA QUERIES: */
+
+@media screen and (max-width: 568px) {
+  .profile-pic {
+    width: 200px;
+  }
+  .scroll {
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .testimonial {
+    font-size: 18px;
+    width: 500px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .meet {
+    font-size: 4rem;
+    margin-top: 200px;
+  }
+}
+
+/* SMART PHONE SIZED MEDIA QUERIES: */
+
+@media screen and (max-width: 480px) {
+  .top-background-image {
+    height: 830px;
+  }
+
+  .mike {
+    font-size: 3.5rem;
+    padding-top: 150px;
+  }
+
+  .programmer {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 20px;
+  }
+
+  .profile-pic {
+    width: 240px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mike-about {
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .started-button {
+    font-size: 20px;
+  }
+
+  .testimonial {
+    font-size: 13px;
+    width: 300px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .social-icon {
+    font-size: 15vw;
+  }
+
+  .social-icons {
+    font-size: 15vw;
+  }
+
+  .language-icons {
+    font-size: 20px;
+  }
+
+  .startings {
+    font-size: 15px;
+  }
+
+  .adverts {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .advert {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .fast,
+  .fasts {
+    width: 310px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 35px;
+    margin-top: -30px;
+  }
+
+  .fasts {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+
+  .starting {
+    font-size: 30px;
+  }
+
+  .about-box1 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 340px;
+  }
+
+  .about-middle {
+    height: 1175px;
+    background-color: white;
+    padding-top: 0px;
+    margin-top: 0;
+    margin-bottom: auto;
+  }
+
+  .mike-about {
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .about-covers {
+    height: 823px;
+  }
+
+  .meet {
+    font-size: 4.65rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .meets {
+    display: none;
+  }
+
+  .language-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .card-size {
+    width: 18rem;
+  }
+
+  .latest-project {
+    font-size: 3.5rem;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.cards {
+  margin-bottom: 20px;
+}
+
+/* SUPER SMALL SMART PHONE SIZED MEDIA QUERIES: */
+@media screen and (max-width: 320px) {
+  .profile-pic {
+    width: 220px;
+  }
+
+  .mike {
+    font-size: 46px;
+  }
+  .scroll {
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .adver {
+    width: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 10px;
+  }
+
+  .advert {
+    width: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 10px;
+  }
+
+  .testimonial {
+    font-size: 14px;
+  }
+
+  .social-icon {
+    font-size: 14vw;
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  .social-icons {
+    margin-left: 40px;
+    text-align: center;
+    font-size: 20vw;
+  }
+
+  .starting {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .startings {
+    font-size: 18px;
+  }
+
+  .meet {
+    font-size: 4.65rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-box1 {
+    width: 280px;
+  }
+
+  .mike-about {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/*  EXTREMELY SMALL SMART PHONE SIZED MEDIA QUERIES: */
+
+@media screen and (max-width: 280px) {
+  .profile-pic {
+    width: 200px;
+  }
+  .scroll {
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .fasts {
+    width: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .fast {
+    width: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .adver {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .social-icon {
+    margin-right: 40px;
+  }
+
+  .social-icons {
+    font-size: 20vw;
+
+    text-align: center;
+  }
+
+  .fast {
+    margin-left: 30px;
+  }
+
+  .fasts {
+    margin-left: 30px;
+  }
+
+  .testimonial {
+    font-size: 12px;
+    width: 250px;
+  }
+
+  .about-middle {
+    height: 1350px;
+  }
+
+  .about-box1 {
+    width: 260px;
+  }
+
+  .about-covers {
+    height: 653px;
+  }
+
+  .card-size {
+    width: 12rem;
+  }
+}
+
+/* end of media */
